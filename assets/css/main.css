@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background: #0004ff;
+}
+
+.section-title span {
+    color: #0004ff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background: #ffffff;
+    color: #0004ff;
+}
+
+.col-md-4 img {
+    height: 280px;
+}
+
+.carousel-item img {
+    width: 1920px;
+    height: 760px;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background: #d2d3e7;
+}
+
+#about, #cardapio{
+    background: #d2d3e7;
+}
+
+.text-colored {
+    color: #0004ff;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #0004ff;
+    color: #ffffff;
+}
+
+
+.nav-cardapio .nav-link:hover {
+    color: #0004ff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
